@@ -6,6 +6,5 @@
     "esModuleInterop": true,
     "moduleResolution": "NodeNext"
   },
-  "include": ["bin/**/*", "commands/**/*", "core/**/*"],
-  "exclude": ["node_modules", "dist", "template"]
+  "exclude": ["node_modules", "template"]
 }

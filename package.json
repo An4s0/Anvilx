@@ -1,10 +1,10 @@
 {
   "name": "anvilx",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Anvilx is an open-source monorepo project generator for scaffolding clean, scalable structures across multiple applications and services.",
   "type": "module",
   "bin": {
-    "anvilx": "./bin/anvilx.js"
+    "anvilx": "./dist/bin/anvilx.js"
   },
   "scripts": {
     "dev": "ts-node --project tsconfig.json ./bin/anvilx.ts",

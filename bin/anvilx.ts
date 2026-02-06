@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { helpCommand } from "../commands/help.js";
 import { initCommand } from "../commands/init.js";
 
