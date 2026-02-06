@@ -1,0 +1,16 @@
+{
+  "extends": "@{{name}}/tsconfig",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "./",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "module": "ESNext",
+    "verbatimModuleSyntax": true,
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

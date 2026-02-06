@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "NodeNext",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "moduleResolution": "NodeNext"
+  },
+  "include": ["bin/**/*", "commands/**/*", "core/**/*"],
+  "exclude": ["node_modules", "dist", "template"]
+}

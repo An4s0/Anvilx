@@ -1,0 +1,14 @@
+{
+  "name": "@{{name}}/eslint",
+  "private": true,
+  "type": "module",
+  "main": "./eslint.config.mjs",
+  "exports": {
+    ".": "./eslint.config.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.2",
+    "globals": "^16.5.0",
+    "typescript-eslint": "^8.51.0"
+  }
+}

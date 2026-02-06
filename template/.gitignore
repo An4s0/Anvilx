@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+pnpm-debug.log*
+
+# Editor / IDE
+.vscode/
+.idea/
+
+# Tools / caches
+.unlighthouse/
+.cache/
+.eslintcache
+
+# Package managers
+pnpm-lock.yaml
+package-lock.json

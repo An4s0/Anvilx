@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch app.ts",
+    "build": "tsup app.ts --format esm,cjs --out-dir dist",
+    "start": "node dist/app.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@{{name}}/eslint": "workspace:*",
+    "@{{name}}/tsconfig": "workspace:*"
+  }
+}
