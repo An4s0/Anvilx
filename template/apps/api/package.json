@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "tsx watch app.ts",
-    "build": "tsup app.ts --format esm,cjs --out-dir dist",
+      "build": "tsup app.ts --format cjs --out-dir dist",
     "start": "node dist/app.js",
     "lint": "eslint ."
   },
