@@ -1,6 +1,6 @@
 {
   "name": "anvilx",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Anvilx is an open-source monorepo project generator for scaffolding clean, scalable structures across multiple applications and services.",
   "type": "module",
   "bin": {
